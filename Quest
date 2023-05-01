@@ -1,0 +1,21 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Made By T1m", "Ocean")
+
+local Quest = Window:NewTab("Quest")
+local QuestSection = Quest:NewSection("Quest")
+
+QuestSection:NewButton("Give Book", "Teleport To Npc Quest", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2608.21, 211.328, -1807.65)
+end)
+
+
+QuestSection:NewButton("New World", "Teleport To Npc Quest", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2407.81, 16.2716, -4360.93)
+end)
+
+
+QuestSection:NewButton("Buy Style Fishman", "Teleport To Npc Quest", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1830.98, 40.5053, 6808.32)
+    end)
+
+ Quest:UpdateButton("Quest")

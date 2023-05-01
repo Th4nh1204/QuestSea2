@@ -1,4 +1,4 @@
-print('local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Made By T1m", "Ocean")
 
 local Quest = Window:NewTab("Quest")
@@ -17,4 +17,3 @@ end)
 QuestSection:NewButton("Buy Style Fishman", "Teleport To Npc Quest", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1830.98, 40.5053, 6808.32)
     end)
-')
